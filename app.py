@@ -120,7 +120,7 @@ elif escolha == "📦 Entrada / Saída":
                 st.markdown("### 🛒 Dados da Venda / Cliente")
                 col3, col4 = st.columns(2)
                 with col3:
-                    cliente_nome = st.text_input("Nome da(o) Cliente", placeholder="Ex: Alessandra Miranda")
+                    cliente_nome = st.text_input("Nome da(o) Cliente", placeholder="Ex: Nome da Cliente")
                     cliente_telefone = st.text_input("Número (WhatsApp)", placeholder="Ex: (27) 99999-9999")
                 with col4:
                     forma_pagamento = st.selectbox("Forma de Pagamento", ["Pix", "Dinheiro", "Cartão de Crédito", "Cartão de Débito", "Fiado / A Receber", "Descarte/Uso Próprio"])
