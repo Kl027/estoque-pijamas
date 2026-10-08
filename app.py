@@ -8,7 +8,7 @@ st.set_page_config(page_title="Gestão de Estoque | Íntima", page_icon="👙", 
 
 # --- CONEXÃO COM O GOOGLE SHEETS ---
 # COLE O LINK DA SUA PLANILHA AQUI ABAIXO:
-URL_PLANILHA = "https://docs.google.com/spreadsheets/d/SEU_LINK_AQUI/edit"
+URL_PLANILHA = "https://docs.google.com/spreadsheets/d/1uQoccjhF7GZl4xQfzBdNmaY6xy2fWow1NwQ-cksuPlM/edit?usp=sharing"
 
 conn = st.connection("gsheets", type=GSheetsConnection)
 
